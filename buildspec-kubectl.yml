@@ -1,5 +1,5 @@
 version: 0.2
-
+ 
 env:
   variables:
     _PROJECT_NAME: "user19-products"
@@ -93,7 +93,7 @@ phases:
                       periodSeconds: 5
                       failureThreshold: 5
           EOF
-
+ 
 cache:
   paths:
     - '/root/.m2/**/*'
